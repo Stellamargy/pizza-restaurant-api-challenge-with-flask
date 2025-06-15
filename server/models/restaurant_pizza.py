@@ -24,8 +24,8 @@ class RestaurantPizza(db.Model):
     )
 
     #Relationship at model level
-    restaurant=db.relationship(('Restaurant'),back_populates="restaurant_pizza")
-    pizza=db.relationship(('Pizza'),back_populates="restaurant_pizza")
+    restaurant=db.relationship(('Restaurant'),back_populates="restaurant_pizzas")
+    pizza=db.relationship(('Pizza'),back_populates="restaurant_pizzas")
     
     #Improve RestaurantPizza instance Readability
     def __repr__(self):
