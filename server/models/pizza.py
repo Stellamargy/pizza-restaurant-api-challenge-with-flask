@@ -1,7 +1,8 @@
 from server.app import db
 from sqlalchemy.dialects.postgresql import ARRAY
 from datetime import datetime,timezone
-class Pizza(db.Model):
+from sqlalchemy_serializer import SerializerMixin
+class Pizza(db.Model,SerializerMixin):
     #table name
     __tablename__="pizzas"
     #Table Columns 
@@ -23,6 +24,8 @@ class Pizza(db.Model):
 
     #Define Relationships at model level
     restaurant_pizzas=db.relationship("RestaurantPizza",back_populates="pizza")
+    #Serialization rules
+    serialize_rules=('- restaurant_pizzas.pizza',)
 
     def __repr__(self):
         return f"""

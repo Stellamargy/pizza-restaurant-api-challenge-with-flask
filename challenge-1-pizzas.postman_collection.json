@@ -1,0 +1,180 @@
+[
+  {
+    "address": "123 Pizza Lane, Eldoret",
+    "created_at": "2025-06-15 14:54:37",
+    "id": 1,
+    "name": "Mama Stella\u2019s Pizzeria",
+    "restaurant_pizzas": [
+      {
+        "created_at": "2025-06-15 14:54:37",
+        "id": 1,
+        "pizza": {
+          "created_at": "2025-06-15 14:17:12",
+          "id": 2,
+          "ingredients": [
+            "Tomato Sauce",
+            "Mozzarella Cheese",
+            "Basil"
+          ],
+          "name": "Pepperoni",
+          "updated_at": "2025-06-15 14:17:12"
+        },
+        "pizza_id": 2,
+        "prize": 8,
+        "restaurant_id": 1,
+        "updated_at": "2025-06-15 14:54:37"
+      },
+      {
+        "created_at": "2025-06-15 14:54:37",
+        "id": 2,
+        "pizza": {
+          "created_at": "2025-06-15 14:17:12",
+          "id": 1,
+          "ingredients": [
+            "Tomato Sauce",
+            "Mozzarella Cheese",
+            "Basil"
+          ],
+          "name": "Margherita",
+          "updated_at": "2025-06-15 14:17:12"
+        },
+        "pizza_id": 1,
+        "prize": 6,
+        "restaurant_id": 1,
+        "updated_at": "2025-06-15 14:54:37"
+      }
+    ],
+    "updated_at": "2025-06-15 14:54:37"
+  },
+  {
+    "address": "456 Crust Ave, Nairobi",
+    "created_at": "2025-06-15 14:54:37",
+    "id": 2,
+    "name": "The Dough House",
+    "restaurant_pizzas": [
+      {
+        "created_at": "2025-06-15 14:54:37",
+        "id": 3,
+        "pizza": {
+          "created_at": "2025-06-15 14:17:12",
+          "id": 3,
+          "ingredients": [
+            "Tomato Sauce",
+            "Mozzarella Cheese",
+            "Basil"
+          ],
+          "name": "Vegetarian",
+          "updated_at": "2025-06-15 14:17:12"
+        },
+        "pizza_id": 3,
+        "prize": 9,
+        "restaurant_id": 2,
+        "updated_at": "2025-06-15 14:54:37"
+      }
+    ],
+    "updated_at": "2025-06-15 14:54:37"
+  },
+  {
+    "address": "789 Mozza St, Mombasa",
+    "created_at": "2025-06-15 14:54:37",
+    "id": 3,
+    "name": "Slice of Heaven",
+    "restaurant_pizzas": [
+      {
+        "created_at": "2025-06-15 14:54:37",
+        "id": 4,
+        "pizza": {
+          "created_at": "2025-06-15 14:17:12",
+          "id": 4,
+          "ingredients": [
+            "Tomato Sauce",
+            "Mozzarella Cheese",
+            "Basil"
+          ],
+          "name": "BBQ Chicken",
+          "updated_at": "2025-06-15 14:17:12"
+        },
+        "pizza_id": 4,
+        "prize": 7,
+        "restaurant_id": 3,
+        "updated_at": "2025-06-15 14:54:37"
+      }
+    ],
+    "updated_at": "2025-06-15 14:54:37"
+  },
+  {
+    "address": "321 Bake Blvd, Kisumu",
+    "created_at": "2025-06-15 14:54:37",
+    "id": 4,
+    "name": "Crust & Craft",
+    "restaurant_pizzas": [
+      {
+        "created_at": "2025-06-15 14:54:37",
+        "id": 5,
+        "pizza": {
+          "created_at": "2025-06-15 14:17:12",
+          "id": 5,
+          "ingredients": [
+            "Tomato Sauce",
+            "Mozzarella Cheese",
+            "Basil"
+          ],
+          "name": "Seafood Delight",
+          "updated_at": "2025-06-15 14:17:12"
+        },
+        "pizza_id": 5,
+        "prize": 5,
+        "restaurant_id": 4,
+        "updated_at": "2025-06-15 14:54:37"
+      }
+    ],
+    "updated_at": "2025-06-15 14:54:37"
+  },
+  {
+    "address": "654 Tomato Rd, Nakuru",
+    "created_at": "2025-06-15 14:54:37",
+    "id": 5,
+    "name": "The Rustic Oven",
+    "restaurant_pizzas": [
+      {
+        "created_at": "2025-06-15 14:54:37",
+        "id": 6,
+        "pizza": {
+          "created_at": "2025-06-15 14:17:12",
+          "id": 1,
+          "ingredients": [
+            "Tomato Sauce",
+            "Mozzarella Cheese",
+            "Basil"
+          ],
+          "name": "Margherita",
+          "updated_at": "2025-06-15 14:17:12"
+        },
+        "pizza_id": 1,
+        "prize": 10,
+        "restaurant_id": 5,
+        "updated_at": "2025-06-15 14:54:37"
+      },
+      {
+        "created_at": "2025-06-15 14:54:37",
+        "id": 7,
+        "pizza": {
+          "created_at": "2025-06-15 14:17:12",
+          "id": 2,
+          "ingredients": [
+            "Tomato Sauce",
+            "Mozzarella Cheese",
+            "Basil"
+          ],
+          "name": "Pepperoni",
+          "updated_at": "2025-06-15 14:17:12"
+        },
+        "pizza_id": 2,
+        "prize": 4,
+        "restaurant_id": 5,
+        "updated_at": "2025-06-15 14:54:37"
+      }
+    ],
+    "updated_at": "2025-06-15 14:54:37"
+  }
+]
