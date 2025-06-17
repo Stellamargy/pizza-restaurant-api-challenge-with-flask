@@ -31,3 +31,11 @@ class Pizza(db.Model,SerializerMixin):
         return f"""
         ID:{self.id}, NAME:{self.name}, INGREDIENTS:{self.ingredients},CREATED_AT:{self.  created_at}
                 """
+      #Custom fn to change instances to a dictionary -Serialiation
+    def to_dict_basic(self):
+        return {
+            "id":self.id,
+            "name":self.name,
+            "ingredients":self.ingredients
+
+        }
