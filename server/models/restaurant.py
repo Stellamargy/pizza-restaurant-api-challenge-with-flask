@@ -1,6 +1,8 @@
 from server.app import db
 from datetime import datetime,timezone
-class Restaurant(db.Model):
+from sqlalchemy_serializer import SerializerMixin
+
+class Restaurant(db.Model,SerializerMixin):
     #table name
     __tablename__="restaurants"
     #table columns 
@@ -22,6 +24,9 @@ class Restaurant(db.Model):
 
     #Define Relationships -Pythonic acess/model navigation
     restaurant_pizzas=db.relationship("RestaurantPizza",back_populates="restaurant")
+
+    #Serialization rules -remove recursion
+    serialize_rules = ('-restaurant_pizzas.restaurant',)
 
     #Improve readability of restaurant Instances .
     def __repr__(self):

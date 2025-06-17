@@ -34,8 +34,8 @@ class RestaurantPizza(db.Model):
         return f"""ID:{self.id},PRIZE:{self.prize},RESTAURANT_ID:{self.restaurant_id},PIZZA_ID:{self.pizza_id},CREATED_AT:{self.created_at}"""
     
     #Checks for price
-    @validates('price')
-    def validate_price(self, key, value):
+    @validates('prize')
+    def validate_prize(self, key, value):
         if not isinstance(value, int):
             raise ValueError("Price must be an integer.")
         if value < 1 or value > 10:
