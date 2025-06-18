@@ -19,10 +19,12 @@ from server.models.pizza import Pizza
 from server.models.restaurant_pizza import RestaurantPizza
 from server.routes.restaurant_controller import restaurant_bp
 from server.routes.pizza_controller import pizza_bp
+from server.routes.restaurant_pizza_controller import restaurantpizza_bp
 
 #Register Blueprints
 app.register_blueprint(restaurant_bp,url_prefix='/restaurants')
 app.register_blueprint(pizza_bp,url_prefix='/pizzas')
+app.register_blueprint(restaurantpizza_bp,url_prefix='/pizzas')
 
 
 
